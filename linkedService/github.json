@@ -1,0 +1,13 @@
+{
+	"name": "github",
+	"properties": {
+		"description": "github data",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/sobiero/data/blob/main/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
